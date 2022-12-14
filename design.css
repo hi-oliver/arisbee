@@ -13,12 +13,6 @@ body {
   color: #212121;
   text-align: center;
 }
-.FrstPageCompanySubNaming {
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  color: #212121;
-  text-align: center;
-}
 .RightDivTitle_Wh {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
@@ -45,6 +39,11 @@ body {
   padding-bottom: 10px;
   background-color: #806b53;
 }
+.p2nd_block_gotic {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1f1f1f;
+}
 .container {
   max-width: 450px;
   margin-right: 10%;
@@ -54,6 +53,15 @@ body {
   font-size: 13px;
   color: #fff;
   opacity: 0.7;
+  text-align: left;
+  font-weight: 300;
+  margin-left: 10%;
+}
+.project_queue {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  opacity: 0.5;
   text-align: left;
   font-weight: 300;
   margin-left: 10%;
@@ -85,6 +93,9 @@ body {
 .yastrebgradpr {
   background-image: url(images/yastrebgrad/preview.png);
 }
+.goticpr {
+  background-image: url(images/gotic/preview.png);
+}
 .projects_preview {
   background-repeat: no-repeat;
   background-position: center;
@@ -111,23 +122,41 @@ body {
   color: #926868;
 }
 .yastrebgrad {
-  color: #3d3428;
+  color: #bdab7d;
+}
+.gotic {
+  color: #771D1D;
 }
 .links {
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
+}
+.keeper {
   margin-left: 10%;
+  margin-right: 10%;
 }
 .links:hover {
   text-decoration: underline;
   opacity: 0.8;
 }
 .asylum {
+  background-color: #6f8768;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.asylum-text {
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
-  padding-bottom: 40px;
   text-align: center;
-  color: #000;
-  background-color: #6f8768;
+  color: #fff;
+  opacity: 0.5;
+}
+.logotype {
+  background-image: url(images/local/ArisBee_Logo.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px 20px;
+  opacity: 0.5;
 }
